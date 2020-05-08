@@ -1,0 +1,386 @@
+*{
+text-decoration: none;
+}
+body{
+margin:0px;
+padding: 0px;
+background-color: white;
+}
+.social
+{
+    /* color:rgb(255, 255, 255); */
+    list-style-type: none;  
+}
+.social > li{
+    display: inline-block;
+      padding-right: 10px; 
+     margin-top: 12px; 
+} 
+.moto{
+    font-size:15px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+     padding-top: 14px; 
+}
+    
+.btn-top{
+    border:1px solid #427900;
+    font-size: 11px;
+    margin-top: 9px;
+    width:auto;
+    height:30px;
+    text-decoration: none;
+}
+.btn1{
+    padding: 3px 12px;
+}
+.btn2{
+    padding: 3px 13px;
+}
+.btn3{
+    padding: 3px 14px;
+}
+.top-bar{
+background-color:#316DC3;
+}
+
+
+.logo
+{
+height:50px;
+width: auto;
+margin-left: 85px;
+}
+.btn-light{
+color:black !important;
+}
+#ticker{
+    background-color: #316DC3;
+    color:white;
+    margin-top:15px;
+    margin-bottom:5px;
+}
+.h-date{
+color:#08E720;
+}
+.h-link{
+color:#0A16F3;
+}
+
+
+
+.mycontainer{
+background-color:#F7F8FA;
+padding-top:50px;
+padding-bottom:50px;
+}
+.text-p{
+font-family: Helvetica, Arial, sans-serif;
+    font-size:14.9px;
+    line-height: 25px;
+    color:gray;
+    text-align: justify;    
+    margin-right: 202px;
+    margin-left: 202px;
+    padding-top:15px;
+}
+
+.h1{
+    font-family: 'Times New Roman',Georgia, Times,  serif;
+    text-align:center;
+    color:#316dc3;
+    font-size:35px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.h2{
+    font-size: 30px; 
+    color: green;
+}
+
+.ratio{
+    background-color: #2755e9;
+    color: white;
+    font-family: Cochin,'Times New Roman', Times, serif;
+    font-size:18px;
+    padding-top: 90px;
+    padding-bottom: 60px;
+     height:320px; 
+     overflow:auto;
+     overflow: hidden;
+     font-weight: bold;
+}
+
+.services{
+margin-left:95px;
+margin-right:95px;
+margin-top:30px;
+}
+.box
+{
+height:195px;
+width:364px;
+margin-left:10px;
+}
+.h4{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: bold;
+font-size: 17.5px;
+color:#316DC3;
+margin-top:33px;
+padding-left:18px;
+}
+.project{
+    border: 1px solid #eeeeee !important;
+color:#316DC3;
+background-color: #F7F8FA;
+height:70px;
+width:350px;
+padding-left: 10px;
+padding-top: 18px;
+padding-bottom: 20px;
+margin-bottom: 14px;
+}
+
+
+.project-boxes
+{
+}
+.h2{
+    color:#2755e9; font-size: 27px; font-weight:bold; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"
+}
+/* .navbar{
+    background: #F7F8FA !important;
+} */
+.block-inline{
+    display: inline-block;
+}
+.ul-none{
+list-style: none;
+}
+h4{
+font-size: 20px;
+}
+.lineb{
+    color:green; font-size: 30px;
+    margin-top: 50;
+}
+.galleryimg{
+height: 145px;
+width:auto;
+}
+.navpadding {
+    padding-left: 210px;
+    padding-right: 210px;
+}
+.footer{
+    background-color: #25272e;
+    color: grey;
+    padding:30px 0px 30px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+body {
+    background:white;
+  }
+  
+  .navbar .nav-item:not(:last-child) {
+    margin-right: 18px;
+  }
+  
+  .dropdown-toggle::after {
+     transition: transform 0.15s linear; 
+  }
+  
+  .show.dropdown .dropdown-toggle::after {
+    transform: translateY(3px);
+  }
+  
+  .dropdown-menu {
+    margin-top: 0;
+  }
+
+  .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color:white !important;
+    background-color: #316DC3;
+    border-radius: 17px;
+    
+}
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link {
+    color:black !important;
+}
+
+
+.carousel-item{
+    height: 570px;
+
+} 
+.carousel-item img{
+    height: 570px;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+        color:white !important;
+        background-color: #316DC3;
+        border-radius: 0px;
+        
+    }  
+    .carousel-item{
+        height: 250px;
+    
+    } 
+    .carousel-item img{
+        height: 195px;
+    }
+.logo{
+    margin-left: 0px;
+}
+
+.top-bar{
+    height:150px;
+    }
+.btn-top{
+    margin-top: 0px;
+}
+.moto{
+    margin-top: -14px;
+    margin-bottom: 0px;
+}
+.social > li{
+     margin-top: 10px; 
+     padding-right:22px;
+} 
+.text-p{
+    margin-right: 16px;
+    margin-left: 16px;
+}
+.ratio{
+height:580px;
+width:auto;
+text-align: center;
+padding-left:0px;
+padding-right: 0px;
+padding-top:30px;
+padding-bottom: 30px;
+}
+.services{
+    margin-left:1%;
+    margin-right:5%;
+    margin-top:30px;
+    }
+    .box
+    {
+    height:195px;
+    width:100%;
+    }
+    .       
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+        color:white !important;
+        background-color: #316DC3;
+        border-radius: 0px;
+        
+    }  
+    .carousel-item{
+        height: 195px;
+    
+    } 
+    .carousel-item img{
+        height: 195px;
+    }
+.logo{
+    margin-left: 0px;
+}
+
+.top-bar{
+    height:150px;
+    }
+.btn-top{
+    margin-top: 0px;
+}
+.moto{
+    margin-top: -14px;
+    margin-bottom: 0px;
+}
+.social > li{
+     margin-top: 10px; 
+     padding-right:22px;
+} 
+.text-p{
+    margin-right: 16px;
+    margin-left: 16px;
+}
+.ratio{
+height:580px;
+width:auto;
+text-align: center;
+padding-left:0px;
+padding-right: 0px;
+padding-top:30px;
+padding-bottom: 30px;
+}
+.services{
+    margin-left:1%;
+    margin-right:5%;
+    margin-top:30px;
+    }
+    .box
+    {
+    height:195px;
+    width:100%;
+    }
+/* .container{
+padding: 0px;
+} */
+
+.h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 17.5px;
+    color:#316DC3;
+    margin-top:33px;
+    padding-left:18px;
+    }
+    .project{
+    border: 1px solid #eeeeee !important;
+    color:#316DC3;
+    background-color: #F7F8FA;
+    height:70px;
+    width:450px;
+    padding-left: 10px;
+    padding-top: 18px;
+    padding-bottom: 20px;
+    margin-bottom: 14px;
+    }
+    .upcomingevents
+    {
+    width:60%;
+    }
+    .navpadding {   
+    padding-left: 13px;
+    }
+    .socialdown
+    {
+    list-style-type: none;
+    margin-left:0px;
+    padding-left: 0px;
+
+    }
+    .socialdown > li{
+        display: inline-block;
+          margin-left: 0px; 
+         margin-top: 12px; 
+    } 
+    .galleryimg{
+        height: 130px;
+        width:auto;
+        }
+}
+}
